@@ -138,7 +138,7 @@ class UsersController extends AppController
             
         }
         if ($this->request->is('post') && !$result->isValid()) {
-            $this->Flash->error(__('Invalid username or password'));
+            $this->Flash->error(__('Korisnik nije pronađen'));
         }
         }
     
