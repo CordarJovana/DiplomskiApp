@@ -1,0 +1,569 @@
+#mainDiv {
+    height: 40vh;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 40px;
+    border: 2px red solid;
+    border-radius: 30px;
+  }
+  
+  #mainDiv1 {
+  height: 40vh;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 40px;
+  border: 2px red solid;
+  border-radius: 30px;
+  background-color: white;
+  width: 600px;
+  }
+  
+  #opis{
+  width: 100%;
+  padding-right: 10px;
+  padding-top: 20px;
+  margin-top: 40px;
+  border: 2px red solid;
+  align-content: center;
+  background-color: white;
+  }
+#podnaslov{
+  margin-right: 30px;
+  
+}
+
+
+#lista{
+  list-style: none;
+}
+  
+  .indexButton {
+  border: 2px red solid;
+  border-radius: 30px;
+  padding: 17px;
+  justify-content: center;
+  align-content: center;
+  }
+  
+  
+  .btn:hover {
+  background-color: white; 
+  color: red;
+  }
+  
+  #podnaslov{
+    text-align: center;
+  }
+  
+  #unosTima{
+  background-color: #f1e31e;
+  align-items: center;
+  display: grid;
+  grid-row: auto auto auto;
+  justify-content: center;
+  }
+  
+  #podnaslovUnos{
+  text-align: center;
+  color: red;
+  font-size: larger;
+  }
+  
+  #tim, #igrac1, #igrac2{
+  margin-top: 5px;
+  border: 2px red solid;
+  background-color: white;
+  border-radius: 30px;
+  padding: 17px;
+  text-align: center;
+  font-size: larger;
+  }
+  
+  #sacuvajTimBtn{
+  border: 2px  rgb(226, 41, 41) solid;
+  border-radius: 30px;
+  padding: 17px;
+  text-align: center;
+  background-color: rgb(226, 41, 41);
+  font-size: large;
+  line-height: 6px;
+  color: white;
+  }
+  
+  #sacuvajTimBtn:hover {
+  background-color: white; 
+  color: red;
+  }
+  
+  #tabela{
+    margin-top: 80px;
+  }
+  
+  #ivonaPozadina{
+    background-color: lightsteelblue;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
+  #tabela1 {
+  position:relative;
+  }
+  #tabela2 {
+  height:150px;
+  overflow:auto;  
+  margin-top:20px;
+  }
+  #users-table{
+  width:100%;
+  background:white;
+  color:black;
+  
+  }
+  
+  #zaglavlje{
+  font-size: larger;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  }
+  
+  #igrajBtn{
+  border-radius: 30px;
+  padding: 17px;
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+  width: 350px;
+  height: 70px;
+  }
+  
+  #igrajBtn:hover {
+  background-color: white; 
+  color: red;
+  border: 3px red solid;
+  }
+  
+  #igrajBtnActivity{
+  border-radius: 30px;
+  padding: 17px;
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+  width: 350px;
+  height: 70px;
+  }
+  
+  #igrajBtnActivity:hover{
+  background-color: white; 
+  color: red;
+  border: 3px red solid;
+  }
+  
+  #zapocniIgru{
+  justify-content: center;
+  align-content: center;
+  display: grid;
+  background-color: white;
+  }
+  
+  .buttonBack {
+  position: sticky;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  }
+  
+  #poljeIgraj{
+  align-items: center;
+  display: grid;
+  grid-row: auto auto auto ;
+  justify-content: center;
+  margin-top: 50px;
+  }
+  
+  #krajRunde{
+  border: 3px rgb(216, 60, 60) solid;
+  border-radius: 30px;
+  background-color: #f1e31e;
+  width: 150px;
+  height: 50px;
+  color: red;
+  font-size: larger;
+  }
+  
+  #krajRunde:hover {
+  background-color: rgb(216, 60, 60) ; 
+  color: #f1e31e;
+  border: 3px rgb(216, 60, 60) solid;
+  }
+  
+  #krajIgre{
+  border: 3px  #f1e31e solid;
+  border-radius: 30px;
+  background-color: rgb(226, 41, 41);
+  width: 150px;
+  height: 50px;
+  color:  #f1e31e;
+  font-size: larger;
+  }
+  
+  #krajIgre:hover {
+  background-color: #f1e31e; 
+  color: rgb(216, 60, 60);
+  border: 3px#f1e31e solid;
+  }
+  
+  #dugmici{
+  padding-top: 20px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  column-gap: 20px;
+  }
+  #unosPoena{
+  border: 2px rgb(216, 60, 60) solid;
+  background-color: #f1e31e;
+  align-items: center;
+  display: grid;
+  grid-row: auto auto;
+  justify-content: center;
+  }
+  
+  #proba{
+  justify-content: center;
+  align-content: center;
+  display: block;
+  }
+  
+  #poeni{
+  border: 3px rgb(216, 60, 60) solid;
+  }
+  
+  #lpoeni{
+  margin-top: 10px;
+  color: rgb(216, 60, 60);
+  }
+  
+  #unesiPoene{
+  margin-top: 8px;
+  margin-bottom: 8px;
+  height: 50px;
+  border: 3px rgb(216, 60, 60) solid;
+  border-radius: 30px;
+  color: #f1e31e;
+  background-color: rgb(216, 60, 60);
+  }
+  
+  #unesiPoene:hover {
+  background-color: white ; 
+  color: rgb(216, 60, 60);
+  border: 3px rgb(216, 60, 60) solid;
+  }
+  
+  .bg-model {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  
+  }
+  .model-content-asocijacije {
+  width: 500px;
+  height: 300px;
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  }
+  #brojPapirica {
+  width: 50%;
+  display: block;
+  margin: 15 auto;
+  padding: 10px;
+  
+  
+  }
+  .close {
+  position: absolute;
+  top: 0;
+  right: 14px;
+  font-size: 40px;
+  transform: rotate(45deg);
+  cursor: pointer;
+  }
+  
+  #unosPoena{
+  vertical-align: center;
+  justify-content: center;
+  align-content: center;
+  }
+  
+  #poljePoeni{
+    margin-top: 10px;
+    width:100%; 
+    height:60px; 
+    position:relative;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  #ostvareniPoeni{
+  top: 0;
+  width:100px; 
+  height: 50px;
+  right:20px; 
+  bottom: 0;
+  position:absolute;
+  line-height: 40px;
+  width: 300px;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  font-size: x-large;
+  border: 3px rgb(216, 60, 60) solid;
+  background-color: yellow;
+  color: rgb(216, 60, 60);
+  }
+  
+  #igra{
+    margin-top: 100px;
+    width:100%; 
+    height:300px; 
+    display: flex;
+    position:relative;
+    white-space: nowrap;
+    overflow: hidden;
+    align-items: center;
+    justify-items: center;
+  align-content: center;
+  justify-content: center;
+  }
+  
+  #pitanje{
+  width: 700px;
+  height: 70px;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  font-size: x-large;
+  border: 3px rgb(216, 60, 60) solid;
+  background-color:white;
+  color: rgb(216, 60, 60);
+  background:white;
+  position: absolute;
+  padding:17px;
+  }
+  
+  #pitanjeTekst{
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  }
+  
+  
+  #odgovori{
+    text-align:center;
+    margin-left:-20px;
+    margin-right:-20px;
+    margin-top: -50px;
+  }
+  
+  #odgovor1, #odgovor2{
+    border: 3px rgb(216, 60, 60) solid;
+  border-radius: 30px;
+  background-color:white;
+  color: rgb(216, 60, 60);
+  background:white;
+    width: 150px;
+    margin:0 20px;
+    margin-top: -100px;
+    display:inline-block;
+    line-height: 60px;
+  }
+  
+  #nav{
+    font-size: x-large;
+  }
+  
+  #nav1,#nav2,#nav3{ 
+  margin: 0 10px;
+  display:inline-block;
+  text-align:center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  }
+  
+  #krajRunde1, #krajRunde2, #krajRunde3{
+    border: 3px rgb(216, 60, 60) solid;
+    border-radius: 30px;
+    background-color:white;
+    color: black;
+    background:white;
+    height: 70px;
+    width: 150px;
+  }
+  
+  #nav3{
+    font-style: bold;
+  }
+  
+  body{
+   background-color: lightsteelblue;
+    font-family: roboto;
+    user-select: none;
+  }
+  
+  .container{
+    width: 450px;
+    margin: 30px auto;
+  }
+  
+  #akt{
+  background-color: green;
+  }
+  
+  .signup,
+  .login{
+    width: 50%;
+    background: #fff;
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  .signup-form,
+  .login-form{
+    background: #fff;
+    margin-top: 40px;;
+    padding: 40px;
+    clear: both;
+    width: 120%;
+    box-sizing: border-box;
+    height: 510px;
+    margin-bottom: 20px;
+  }
+  
+  .input{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    border: 2px solid #e9eaea;
+    color: #3e3e40;
+    font-size: 14px;
+    outline: none;
+    transform: all 0.5s ease;
+  }
+  
+  .input:focus{
+    border: 2px solid #34b3a0;
+  }
+  
+  .dugme{
+    width: 100%;
+    background: rgb(216, 60, 60);
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+
+#ivonaPozadina{
+    background-color: lightsteelblue;
+  }
+
+#reg{
+  margin-left: 450px;
+  height: 200%;
+  font-size: larger;
+}
+
+#povratak{
+  margin-left: 370px;
+  height: 200%;
+  font-size: larger;
+}
+
+#zapocniIgru{
+  width: 400px;
+  height: 100px;
+}
+
+#igraj{
+  font-size: 200%;
+  width: 300px;
+}
+
+#timovi_podaci{
+  text-align: center;
+}
+
+th, td {
+  text-align: center;
+  padding: 16px;
+}
+
+.model-content-asocijacije{
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+#unesiPapirice{
+
+  margin-top: 20px;
+}
+
+#brojPapirica{
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+.close{
+  height: 50%;
+}
+
+#sledeciTim, #sledecePit{
+  margin-top: 20px;
+  margin-left: 260px;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+#kraj{
+  background-color: yellow;
+  font-size: large;
+  color: rgb(216, 60, 60);
+  width: 150px;
+  border-radius: 60px;
+  text-decoration:solid;
+  font-size: x-large;
+}
+
+  
