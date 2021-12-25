@@ -26,11 +26,11 @@
 <div id="poljePoeni">
     <div id="ostvareniPoeni"> 
         <label >Poeni:</label>
-<!--<label id='poeniIspis'>0</label>-->
-        <?php        
+<label id='poeniIspis'>0</label>
+       <!-- <?php        
                     
                     echo "<label id='poeniIspis'>".$_SESSION["poeni"]."</label>";
-                ?>
+                ?> -->
         </label> 
      </div>
     </div>
@@ -68,7 +68,7 @@
     ?>
         <?= $this->Form->postLink(
                 __('Kraj'),
-                ['action' => 'kraj', $_SESSION["poeni"]], array('class' => 'btn btn-danger', 'id'=> 'kraj')); ?>
+                ['action' => 'kraj', 9], array('class' => 'btn btn-danger', 'id'=> 'kraj')); ?>
 </div>
 </body>
 </html>
@@ -198,11 +198,11 @@ function odgovori(poz){
             data: JSON.stringify({ data: poz }),
             success: function (data) {
                 if (data.poruka == "OK"){
-                    /*var t=parseInt(document.getElementById("poeniIspis").innerText);
+                    var t=parseInt(document.getElementById("poeniIspis").innerText);
                     t=t+1;
                     document.getElementById("poeniIspis").innerText=t;
-                console.log(t);*/
-                <?php 
+                console.log(t);
+               /* <?php 
                 
                 $_SESSION["poeni"]=$_SESSION["poeni"]+3; 
                 
@@ -210,7 +210,7 @@ function odgovori(poz){
                 console.log(<?php
                 echo $_SESSION["poeni"];
                 ?>);
-               document.getElementById("poeniIspis").innerText=<?= $_SESSION["poeni"] ?>
+               document.getElementById("poeniIspis").innerText=<?= $_SESSION["poeni"] ?>*/
             }
               
             },
